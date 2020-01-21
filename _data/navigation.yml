@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Data Science Projects" 	
+  - title: "Data Science Projects"  	
      url: /Projects/
 	
   # - title: "About"
