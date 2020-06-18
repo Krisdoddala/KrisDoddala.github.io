@@ -1,43 +1,39 @@
-.flaticons-solid:before {
-  font-family: "FlatIcons Solid";
-  speak: none;
-  font-style: normal;
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/03/2019 02:18
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased; }
-  
-.flaticons-stroke:before {
-  font-family: "FlatIcons Stroke";
-  speak: none;
   font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased; }
+}
 
-[class=^"flaticons-"].A1:before,
-[class=^"flaticons-"].paperclip-2:before {
-  content: "e000"; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
 
-[class=^"flaticons-"].A2:before {
-  content: "e001"; }
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
 
-[class=^"flaticons-"].A3:before {
-  content: "e002"; }
-
-[class=^"flaticons-"].B1:before {
-  content: "e003"; }
-
-[class=^"flaticons-"].B2:before {
-  content: "e004"; }
-
-[class=^"flaticons-"].B3:before {
-  content: "e005"; }
-
-[class=^"flaticons-"].C1:before {
-  content: "e006"; }
-
-[class=^"flaticons-"].C2:before {
-  content: "e007"; }
-
-[class=^"flaticons-"].C3:before {
-  content: "e008"; }
+.flaticon-ideas:before { content: "\f100"; }
+.flaticon-flasks:before { content: "\f101"; }
+.flaticon-analysis:before { content: "\f102"; }
+.flaticon-ux-design:before { content: "\f103"; }
+.flaticon-web-design:before { content: "\f104"; }
+.flaticon-idea:before { content: "\f105"; }
+.flaticon-innovation:before { content: "\f106"; }
